@@ -3,6 +3,7 @@ import "./App.css";
 import GiftCard from "./components/GiftCard";
 import FetchUser from "./components/FetchUser";
 import Wallet from "./components/Wallet";
+import InputFocus from "./components/InputFocus";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -27,6 +28,7 @@ function App() {
       <GiftCard />
       <FetchUser />
       <Wallet />
+      <InputFocus />
     </div>
   );
 }
