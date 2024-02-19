@@ -4,6 +4,7 @@ import GiftCard from "./components/GiftCard";
 import FetchUser from "./components/FetchUser";
 import Wallet from "./components/Wallet";
 import InputFocus from "./components/InputFocus";
+import WeekDay from "./components/WeekDay";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -29,6 +30,7 @@ function App() {
       <FetchUser />
       <Wallet />
       <InputFocus />
+      <WeekDay />
     </div>
   );
 }
