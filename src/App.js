@@ -5,6 +5,7 @@ import FetchUser from "./components/FetchUser";
 import Wallet from "./components/Wallet";
 import InputFocus from "./components/InputFocus";
 import WeekDay from "./components/WeekDay";
+import Radio from "./components/radio/Radio";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -31,6 +32,7 @@ function App() {
       <Wallet />
       <InputFocus />
       <WeekDay />
+      <Radio />
     </div>
   );
 }

@@ -4,3 +4,39 @@
   flex-wrap: wrap;
   row-gap: 5rem;
 }
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.radioOption {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+input {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+button {
+  margin-top: 16px;
+  width: 150px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  background-color: darkblue;
+  color: white;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #ccc;
+  color: #666;
+}
