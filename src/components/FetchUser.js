@@ -15,7 +15,6 @@ const FetchUser = () => {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(user);
 
   return user.length > 0 ? (
     <div>
