@@ -1,0 +1,7 @@
+.basicTracker {
+  border: 2px solid black;
+  padding: 1rem;
+}
+.basicTracker span {
+  padding-right: 1rem;
+}

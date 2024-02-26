@@ -6,6 +6,10 @@ import Wallet from "./components/Wallet";
 import InputFocus from "./components/InputFocus";
 import WeekDay from "./components/WeekDay";
 import Radio from "./components/radio/Radio";
+import {
+  PanelMouseTracker,
+  PointMouseTracker,
+} from "./components/hoc/MousePosition";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -33,6 +37,8 @@ function App() {
       <InputFocus />
       <WeekDay />
       <Radio />
+      <PanelMouseTracker />
+      <PointMouseTracker />
     </div>
   );
 }
